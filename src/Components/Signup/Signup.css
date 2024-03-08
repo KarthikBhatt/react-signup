@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 200px;
+  background: #f5e8dd;
+  padding-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: #1b1a55;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 61px;
+  height: 6px;
+  background: #1b1a55;
+  border-radius: 9px;
+}
+
+.inputs {
+  display: flex;
+  margin-top: 55px;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 480px;
+  height: 80px;
+  background: #ffbe98;
+  border-radius: 6px;
+}
